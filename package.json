@@ -1,8 +1,11 @@
 {
   "name": "create-brush",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
-    "brush-install": "bin/brush-install.ts"
+    "brush-install": "bin/brush-install.js"
+  },
+  "scripts": {
+    "build": "tsc"
   },
   "dependencies": {
     "chalk": "^5.6.2",
@@ -13,6 +16,7 @@
   },
   "devDependencies": {
     "@types/degit": "^2.8.6",
-    "@types/node": "^24.9.0"
+    "@types/node": "^24.9.0",
+    "typescript": "^5.9.3"
   }
 }
