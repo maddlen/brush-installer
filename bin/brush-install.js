@@ -43,7 +43,7 @@ async function main() {
     await emitter.clone(target);
     if (whatToInstall === "gadget") {
         const installSpinner = (0, ora_1.default)("Adding requried Node module with Yarn...").start();
-        await (0, execa_1.execa)("yarn", ["add", "@shopify/admin-api-client", "@shopify/storefront-api-client"], { stdio: "inherit" });
+        await (0, execa_1.execa)("yarn", ["add", "@shopify/admin-api-client", "@shopify/storefront-api-client", "zod"], { stdio: "inherit" });
         installSpinner.info("Added additional dependencies.");
         spinner.succeed("Gadget code installed!");
         return;
