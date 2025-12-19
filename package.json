@@ -1,6 +1,6 @@
 {
   "name": "create-brush",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Installer for Brush, a full-stack Shopify custom app starter kit.",
   "license": "MIT",
   "bin": {
